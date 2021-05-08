@@ -1,0 +1,8 @@
+/server/node_modules/
+/server/yarn-error.log*
+
+/client/node_modules/
+/client/yarn-error.log*
+
+/home-page/node_modules/
+/home-page/yarn-error.log*
