@@ -45,7 +45,7 @@ const Messages = ({ user }) => {
   }
 
   return (
-    <div className='bg-blue-400 p-10'>
+    <div className='flex flex-col flex-nowrap bg-blue-400 p-10'>
       {data.messages.map(({ id, user: messageUser, content }) => (
         <div
           className={`flex pb-3 ${
@@ -85,26 +85,26 @@ const Chat = () => {
     setState({ ...state, content: '' });
   };
 
-  const testStyle =
+  const textBoxStyle =
     'm-2 py-2 px-4 border-solid border-2 border-light-blue-500 rounded';
 
   return (
-    <div className='flex flex-col flex-wrap'>
-      <Messages user={state.user} className='h-4/5' />
-      <form onSubmit={onSubmit} className='h-1/5'>
+    <div className='flex flex-col flex-wrap  relative h-full'>
+      <Messages user={state.user} className="h-full" />
+      <form onSubmit={onSubmit} className="absolute bottom-0 lg:h-15" >
         <input
           type='text'
           placeholder='ユーザー名'
           onChange={(evt) => setState({ ...state, user: evt.target.value })}
-          className={testStyle}
+          className={textBoxStyle}
         />
         <input
           type='text'
           placeholder='送信内容'
           onChange={(evt) => setState({ ...state, content: evt.target.value })}
-          className={testStyle}
+          className={textBoxStyle}
         />
-        <button className='font-bold m-2 py-2 px-4 rounded bg-blue-500 text-white hover:bg-blue-700'>
+        <button className='font-bold m-2 py-2 px-4 rounded text-white hover:bg-blue-700'>
           送信
         </button>
       </form>

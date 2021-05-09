@@ -3,8 +3,8 @@ import { FaTwitter, FaInstagram } from 'react-icons/fa';
 
 export const Footer = () => {
   return (
-    <footer className='bg-white p-4'>
-      <div className='pt-12 pb-12 flex flex-wrap text-center lg:flex-row-reverse lg:justify-between'>
+    <footer className='bg-purple-200 p-4'>
+      <div className='pt-2 pb-2 flex flex-wrap text-center lg:flex-row-reverse lg:justify-between'>
         <ul className='w-full lg:w-auto'>
           <FooterIconLink
             href={'https://twitter.com/pitang1965'}

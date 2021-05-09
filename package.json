@@ -1,0 +1,25 @@
+{
+  "name": "pitang-chat",
+  "version": "1.0.0",
+  "description": "* React, GraphQL及びWebsocketsを用いたチャットアプリです。",
+  "main": "home-page/index.js",
+  "scripts": {
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "home-page": "npm start --prefix home-page",
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run home-page\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitang1965/pitang-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pitang1965/pitang-chat/issues"
+  },
+  "homepage": "https://github.com/pitang1965/pitang-chat#readme",
+  "devDependencies": {
+    "concurrently": "^6.1.0"
+  }
+}
