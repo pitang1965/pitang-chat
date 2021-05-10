@@ -12,3 +12,12 @@
 
 ## サーバー側
 * [graphql-yoga](https://www.npmjs.com/package/graphql-yoga)
+
+#　インストール方法
+* 3つのフォルダにて yarn install
+
+# 実行方法
+* 最上位にて npm run dev
+
+# デプロイ方法
+* 要調査
