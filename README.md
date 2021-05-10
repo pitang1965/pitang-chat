@@ -1,5 +1,6 @@
 # 概要
 * React, GraphQL及びWebsocketsを用いたチャットアプリです。
+* 3つのアプリ(server, client, home-page)をビルドし、home-page内にclientが埋め込まれた形で動作します。
 
 # 使用している主なモジュール
 ## クライアント側
