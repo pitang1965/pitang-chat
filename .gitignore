@@ -8,3 +8,5 @@
 
 /home-page/node_modules/
 /home-page/yarn-error.log*
+
+.vscode
