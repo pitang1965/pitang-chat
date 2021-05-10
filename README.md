@@ -14,7 +14,7 @@
 * [graphql-yoga](https://www.npmjs.com/package/graphql-yoga)
 
 #　インストール方法
-* 3つのフォルダにて yarn install
+* 3つのフォルダにて npm install
 
 # 実行方法
 * 最上位にて npm run dev
